@@ -1,66 +1,13 @@
-## Foundry
+## Web3Radio-Access 
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This is a project to create a decentralized radio station that can be accessed by anyone with an internet connection.
 
-Foundry consists of:
+The radio station will be able to play music, news, and other audio content.
+The project will use the Web3 technology stack to create a decentralized application that can be accessed by anyone with an internet connection.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+Web3Radio will consist of the following components:
+1. Web3Radio web application, the main function for user to listen/stream using radio station.
+2. Web3Radio smart contract, decentralizing the access of Web3Radio web application so anyone can permissionlessly use it. 
 
-## Documentation
+Term and condition would be applied for those who want to use the radio station.
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
